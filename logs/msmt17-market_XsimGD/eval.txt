@@ -1,0 +1,26 @@
+Namespace(data_root='/data/wangrubo/project/Augmented-Geometric-Distillation-PaddlePaddle/data', dataset=['msmt17', 'market'], height=256, width=128, batch_size=128, ckpt='./logs/msmt17-market_XsimGD/checkpoint.pdparams', re_ranking=False, output=True, recursive=False, gpu=['0', '1'], embedding=2048, last_pooling='avg', last_stride=2, depth=50, output_feature='embedding')
+./logs/msmt17-market_XsimGD/checkpoint.pdparams
+Epoch: 81
+Namespace(data_root='/data/wangrubo/project/Augmented-Geometric-Distillation-PaddlePaddle/data', dataset=['msmt17', 'market'], height=256, width=128, batch_size=128, ckpt='./logs/msmt17-market_XsimGD/checkpoint.pdparams', re_ranking=False, output=True, recursive=False, gpu=['0', '1'], embedding=2048, last_pooling='avg', last_stride=2, depth=50, output_feature='embedding')
+./logs/msmt17-market_XsimGD/checkpoint.pdparams
+Epoch: 81
+Namespace(data_root='/data/wangrubo/datasets', dataset=['msmt17', 'market'], height=256, width=128, batch_size=128, ckpt='./logs/msmt17-market_XsimGD/checkpoint.pdparams', re_ranking=False, output=True, recursive=False, gpu=['0', '1'], embedding=2048, last_pooling='avg', last_stride=2, depth=50, output_feature='embedding')
+./logs/msmt17-market_XsimGD/checkpoint.pdparams
+Epoch: 81
+msmt17:
+    mAP: 39.6%
+    CMC-1  : 65.3%
+    CMC-5  : 79.0%
+    CMC-10 : 83.7%
+    CMC-20 : 87.6%
+
+market:
+    mAP: 80.4%
+    CMC-1  : 91.5%
+    CMC-5  : 96.9%
+    CMC-10 : 98.2%
+    CMC-20 : 99.1%
+
+Namespace(data_root='/data/wangrubo/project/Augmented-Geometric-Distillation-PaddlePaddle/data/lite_data', dataset=['market', 'msmt17'], height=256, width=128, batch_size=128, ckpt='./logs/msmt17-market_XsimGD/checkpoint.pdparams', re_ranking=False, output=True, recursive=False, gpu=['0'], embedding=2048, last_pooling='avg', last_stride=2, depth=50, output_feature='embedding')
+./logs/msmt17-market_XsimGD/checkpoint.pdparams
+Epoch: 81
