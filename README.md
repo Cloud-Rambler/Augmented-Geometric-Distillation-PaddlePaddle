@@ -20,17 +20,10 @@
 - [8. 参考链接与文献]()
 
 
-**注意：**
-
-(1) 目录可以使用[gh-md-toc](https://github.com/ekalinin/github-markdown-toc)生成；
-
-(2) 示例repo和文档可以参考：[AlexNet_paddle](https://github.com/littletomatodonkey/AlexNet-Prod/blob/tipc/pipeline/Step5/AlexNet_paddle/README.md)。
-
 ## 1. 简介
 
-简单的介绍模型，以及模型的主要架构或主要功能，如果能给出效果图，可以在简介的下方直接贴上图片，展示模型效果。然后另起一行，按如下格式给出论文名称及链接、参考代码链接、aistudio体验教程链接。
-
-注意：在给出参考repo的链接之后，建议添加对参考repo的开发者的致谢。
+论文构建了一个无数据增量记忆ReID框架用于解决隐私问题;
+提出了增强蒸馏(AD)，其中蒸馏以成对和交叉模式进行，以解决“噪声蒸馏”现象；提出了几何蒸馏(GD)，通过漂移时几何地保持空间结构来适应新的和先前的知识；论文提出的AGD优于基线，提升为6.0% mAP / 7.9% R@1。
 
 <div align="center">
 <img src="./images/pipeline.png"  width = "600" />
@@ -41,14 +34,17 @@
 
 
 
-在此非常感谢`$eddiely$`等人贡献的[Augmented-Geometric-Distillation](https://github.com/eddielyc/Augmented-Geometric-Distillation)，提高了本repo复现论文的效率。
+在此非常感谢`$eddiely$`等人贡献的[Augmented-Geometric-Distillation](https://github.com/eddielyc/Augmented-Geometric-Distillation)，`$JDAI-CV$`贡献的[fast-reid](https://github.com/JDAI-CV/fast-reid)提高了本repo复现论文的效率。
 
 
 
 ## 2. 数据集和复现精度
 
 ### 2.1 数据集
-数据集为MSMT17和Market1501，数据集可以在AI Studio数据集页面上下载。
+数据集为MSMT17和Market1501，数据集可以在以下链接下载。
+* Market1501：[baidu pan](https://pan.baidu.com/s/1ntIi2Op) or [google driver](https://drive.google.com/file/d/0B8-rUzbwVRk0c054eEozWG9COHM/view)
+* MSMT17：[baidu pan](https://pan.baidu.com/s/19-cKxL_UVKNHc7kqqp0GVg)  提取码：yf3z
+
 
 ### 2.2 复现精度
 | 任务  | 数据集| 论文mAP|复现mAP|论文R@1 | 复现R@1  |  
@@ -179,3 +175,5 @@ Run successfully with command - python ./tools/evaluate.py --dataset msmt17 mark
 
 ## 7. 参考链接与文献
 [1] Yin, Hongxu, et al. "Dreaming to distill: Data-free knowledge transfer via deepinversion." Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition. 2020.
+
+[2] FastReID: A Pytorch Toolbox for General Instance Re-identification, He, Lingxiao and Liao, Xingyu and Liu, Wu and Liu, Xinchen and Cheng, Peng and Mei, Tao, arXiv preprint arXiv:2006.02631, 2020
