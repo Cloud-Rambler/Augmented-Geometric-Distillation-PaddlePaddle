@@ -1,0 +1,2 @@
+[33m Run successfully with command - python ./tools/main_incrementalX.py --dataset market --previous ./logs/msmt17 --logs-dir ./logs/msmt17-market_XsimGD --inversion-dir ./data/lite_data/generations_r50_msmt17 -g 0 --evaluate 30 --seed 1 --peers 2 --algo-config ./configs/inverXion.yaml !  [0m
+[33m Run successfully with command - python ./tools/evaluate.py --dataset msmt17 market --ckpt ./logs/msmt17-market_XsimGD/checkpoint.pdparams --output  !  [0m
