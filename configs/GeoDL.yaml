@@ -1,5 +1,0 @@
-distillation:
-  type: "GeoDL"
-  factor: 8.
-  config:
-    dim: 1024

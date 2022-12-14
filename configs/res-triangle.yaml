@@ -1,5 +1,0 @@
-distillation:
-  type: "res-triangle"
-  factor: 3.
-  config:
-

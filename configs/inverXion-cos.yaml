@@ -1,5 +1,0 @@
-distillation:
-  type: "cosine"
-  factor: 5.
-  config:
-  cross_factor: 0.9

@@ -1,4 +1,0 @@
-distillation:
-  type: "l1"
-  factor: 0.005
-  config:

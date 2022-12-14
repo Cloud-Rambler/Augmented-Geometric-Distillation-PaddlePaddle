@@ -1,5 +1,0 @@
-distillation:
-  type: "sim-res"
-  factor: 3.
-  config:
-
